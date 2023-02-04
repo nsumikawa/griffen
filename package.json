@@ -5,16 +5,19 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "nik",
+  "author": "Nik Sumikawa",
   "license": "ISC",
   "keywords": [
     "test"
   ],
   "dependencies": {
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "jest": "^26.2.2",
+    "jstat": "^1.9.4",
+    "moment": "^2.27.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
